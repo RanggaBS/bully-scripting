@@ -7,8 +7,8 @@ sidebar_class_name: hidden
 
 ## Description
 
-The first boolean determines the HealthBar Type, where false is the ground HealthBar, while true is whatever's determined by the second boolean.
-The second boolean determines HealthBar Style, where false is the ally HealthBar, while true is the boss HealthBar.
+The first boolean determines the **HealthBar Type**, where false is the ground HealthBar, while true is whatever's determined by the second boolean.
+The second boolean determines **HealthBar Style**, where false is the ally HealthBar, while true is the boss HealthBar.
 
 ```lua
 function PedShowHealthBar(id, type, name, style) --[[ ... ]] end
