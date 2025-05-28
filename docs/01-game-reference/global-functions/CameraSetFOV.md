@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Sets the camera's field of view (FOV) in degrees.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,21 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Adjusts the field-of-view angle of the active camera.
 
 ```lua
-function CameraSetFOV(param1, ...) --[[ ... ]] end
+function CameraSetFOV(degrees) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `degrees`: _`number`_ - The desired FOV angle in degrees.
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
