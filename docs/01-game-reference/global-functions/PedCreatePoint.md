@@ -32,6 +32,6 @@ Create Tad and Parker in the boxing gym.
 ```lua
 DATLoad("2_03.DAT", 2) -- Load the .DAT with the point we need
 
-local tad = PedCreateXYZ(31, POINTLIST._2_03_PlayerStart, 1)
-local parker = PedCreateXYZ(40, POINTLIST._2_03_PlayerStart, 2)
+local tad = PedCreatePoint(31, POINTLIST._2_03_PlayerStart, 1)
+local parker = PedCreatePoint(40, POINTLIST._2_03_PlayerStart, 2)
 ```
