@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Clears all projectiles.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,21 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Removes all projectiles currently active in the area.
 
 ```lua
-function AreaClearAllProjectiles(param1, ...) --[[ ... ]] end
+function AreaClearAllProjectiles() --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+None.
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
