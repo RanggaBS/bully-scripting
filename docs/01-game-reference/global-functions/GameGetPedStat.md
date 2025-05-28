@@ -16,7 +16,7 @@ function GameGetPedStat(ped, stat) --[[ ... ]] end
 ## Parameters
 
 - `ped`: _`integer`_ - The pedestrian entity whose stat value is being queried.
-- `stat`: _`integer`_ - The ID of the stat to retrieve.
+- `stat`: _`integer`_ - The stat to retrieve.
 
 ## Return Values
 
