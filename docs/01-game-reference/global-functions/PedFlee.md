@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Makes a ped flee.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,21 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Causes the specified ped to flee.
 
 ```lua
-function PedFlee(param1, ...) --[[ ... ]] end
+function PedFlee(ped) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `ped`: _`integer`_ - The ped that should flee.
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
