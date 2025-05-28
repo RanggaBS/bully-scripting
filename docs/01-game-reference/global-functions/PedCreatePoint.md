@@ -1,5 +1,5 @@
 ---
-description: Create a character at a pre-defined point, as opposed to a custom position like PedCreateXYZ. 
+description: Create a character at a pre-defined point, as opposed to a custom position like [**PedCreateXYZ**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedCreateXYZ).
 sidebar_class_name: hidden
 ---
 
