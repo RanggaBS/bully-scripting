@@ -8,7 +8,7 @@ sidebar_class_name: hidden
 ## Description
 
 Will not behave correctly if the position is not loaded, so only use this for moving a short distance.
-Unlike PlayerSetPosXYZ and PedSetPosXYZ, this will not affect anything other than the player's position.
+Unlike [**PlayerSetPosXYZ**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PlayerSetPosXYZ) and [**PedSetPosXYZ**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedSetPosXYZ), this will not affect anything other than the player's position.
 
 ```lua
 function PlayerSetPosSimple(x, y, z) --[[ ... ]] end
