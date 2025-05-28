@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Checks if any area is currently loading.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,21 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Returns whether any game area is currently in the process of loading.
 
 ```lua
-function AreaIsLoading(param1, ...) --[[ ... ]] end
+function AreaIsLoading() --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+None.
 
 ## Return Values
 
-...
+- `state`: _`boolean`_ - Returns true if an area is currently loading, otherwise false.
 
 ## Example
 
-...
+None.
 
