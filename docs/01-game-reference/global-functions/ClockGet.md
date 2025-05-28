@@ -1,5 +1,5 @@
 ---
-description: Gets the current time.
+description: Gets the current in-game time.
 sidebar_class_name: hidden
 ---
 
@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Returns the current in-game time as hours and minutes.
 
 ```lua
 function ClockGet() --[[ ... ]] end
@@ -19,8 +19,8 @@ None.
 
 ## Return Values
 
-- `hour`: _`number`_ - Current in-game hour.
-- `minute`: _`number`_ - Current in-game minute.
+- `hour`: _`integer`_ - Current in-game hour.
+- `minute`: _`integer`_ - Current in-game minute.
 
 ## Example
 
