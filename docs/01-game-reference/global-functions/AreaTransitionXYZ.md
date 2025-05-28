@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-This function is defined by SGlFunc.lur and primarily uses PlayerSetPosXYZArea and AreaDisableCameraControlForTransition to do its job.
+This function is defined by SGlFunc.lur and primarily uses [**PlayerSetPosXYZArea**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PlayerSetPosXYZArea) and [**AreaDisableCameraControlForTransition**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaDisableCameraControlForTransition) to do its job.
 
 ```lua
 function AreaTransitionXYZ(id, x, y, z, state) --[[ ... ]] end
