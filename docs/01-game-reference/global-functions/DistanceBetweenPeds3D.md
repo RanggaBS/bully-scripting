@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Gets the 3D distance between two peds, including height differences.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,22 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Calculates the full three-dimensional distance between two pedestrian entities.
 
 ```lua
-function DistanceBetweenPeds3D(param1, ...) --[[ ... ]] end
+function DistanceBetweenPeds3D(ped1, ped2) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `ped1`: _`number`_ - The first pedestrian entity.
+- `ped2`: _`number`_ - The second pedestrian entity.
 
 ## Return Values
 
-...
+- `dist`: _`number`_ - The 3D distance between the two peds.
 
 ## Example
 
-...
+None.
 
