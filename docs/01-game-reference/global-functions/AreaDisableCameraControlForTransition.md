@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-You will need to keep this on until AreaIsLoading returns false for full effect.
+You will need to keep this on until [**AreaIsLoading**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaDisableCameraControlForTransition) returns false for full effect.
 
 ```lua
 function AreaDisableCameraControlForTransition(state) --[[ ... ]] end
