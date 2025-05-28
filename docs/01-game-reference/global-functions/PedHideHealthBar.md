@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Clears any HealthBar created with PedShowHealthBar.
 sidebar_class_name: hidden
 ---
 
