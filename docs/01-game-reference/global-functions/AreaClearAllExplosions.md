@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Clears all explosions.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,21 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Removes all explosions currently active in the area.
 
 ```lua
-function AreaClearAllExplosions(param1, ...) --[[ ... ]] end
+function AreaClearAllExplosions() --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+None.
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
