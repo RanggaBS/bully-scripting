@@ -7,8 +7,8 @@ sidebar_class_name: hidden
 
 ## Description
 
-Unless AreaDisableCameraControlForTransition was called, switching to a new area will cause the camera to fade out then in.
-This is the backing function for AreaTransitionXYZ and will return immediately rather than waiting for the area to load, you can use AreaIsLoading to monitor the loading process.
+Unless [**AreaDisableCameraControlForTransition**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaDisableCameraControlForTransition) was called, switching to a new area will cause the camera to fade out then in.
+This is the backing function for [**AreaTransitionXYZ**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaTransitionXYZ) and will return immediately rather than waiting for the area to load, you can use [**AreaIsLoading**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaIsLoading) to monitor the loading process.
 
 ```lua
 function PlayerSetPosXYZArea(x, y, z, id) --[[ ... ]] end
