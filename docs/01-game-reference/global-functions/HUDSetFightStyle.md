@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-Only used in the Boxing Minigame and is meant to be used with PedShowHealthBar.
+Only used in the Boxing Minigame and is meant to be used with [**PedShowHealthBar**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedShowHealthBar).
 
 ```lua
 function HUDSetFightStyle(param1, ...) --[[ ... ]] end
