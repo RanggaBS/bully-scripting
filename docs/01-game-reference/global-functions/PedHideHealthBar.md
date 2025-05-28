@@ -1,5 +1,5 @@
 ---
-description: Clears any HealthBar created with PedShowHealthBar.
+description: Clears any HealthBar created with [**PedShowHealthBar**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedShowHealthBar).
 sidebar_class_name: hidden
 ---
 
