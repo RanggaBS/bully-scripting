@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Gets the current visible area code.
 sidebar_class_name: hidden
 ---
 
@@ -7,21 +7,21 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Returns the code of the currently visible area in the game.
 
 ```lua
-function AreaGetVisible(param1, ...) --[[ ... ]] end
+function AreaGetVisible() --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+None.
 
 ## Return Values
 
-...
+- `area`: _`integer`_ - The current area.
 
 ## Example
 
-...
+None.
 
