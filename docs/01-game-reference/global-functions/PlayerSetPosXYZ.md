@@ -7,8 +7,8 @@ sidebar_class_name: hidden
 
 ## Description
 
-This will not change the player's area, if that is something you need consider using PlayerSetPosXYZArea or AreaTransitionXYZ.
-Like any other function that sets the player's position (with the exception of PlayerSetPosSimple) this will despawn most ambient peds and move allies / hostiles along with you.
+This will not change the player's area, if that is something you need consider using [**PlayerSetPosXYZArea**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PlayerSetPosXYZArea) or [**AreaTransitionXYZ**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaTransitionXYZ).
+Like any other function that sets the player's position (with the exception of [**PlayerSetPosSimple**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PlayerSetPosSimple)) this will despawn most ambient peds and move allies / hostiles along with you.
 
 ```lua
 function PlayerSetPosXYZ(x, y, z) --[[ ... ]] end
