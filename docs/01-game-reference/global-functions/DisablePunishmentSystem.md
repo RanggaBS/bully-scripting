@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Disables the troublemeter.
 sidebar_class_name: hidden
 ---
 
@@ -10,18 +10,18 @@ sidebar_class_name: hidden
 ...
 
 ```lua
-function DisablePunishmentSystem(param1, ...) --[[ ... ]] end
+function DisablePunishmentSystem(state) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `state`: _`boolean`_ - Whether to disable the trouble meter or not.
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
