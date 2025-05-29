@@ -9,7 +9,10 @@ sidebar_class_name: hidden
 
 Sets the active camera to the specified camera ID.
 The ID values correspond to those returned by [**CameraGetActive**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraGetActive).
-Note: This will have no effect if camera changes are disabled using [**CameraAllowChange**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraAllowChange).
+
+:::warning or danger
+This will have no effect if camera changes are disabled using [**CameraAllowChange**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraAllowChange).
+:::
 
 ```lua
 function CameraSetActive(cameraId) --[[ ... ]] end
@@ -25,5 +28,9 @@ None.
 
 ## Example
 
-None.
+## See Also
+
+- Game's Native
+  - [`CameraGetActive`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraGetActive)
+  - [`CameraAllowChange`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraAllowChange)
 
