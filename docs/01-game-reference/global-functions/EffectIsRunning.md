@@ -19,9 +19,9 @@ function EffectIsRunning(effect) --[[ ... ]] end
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
