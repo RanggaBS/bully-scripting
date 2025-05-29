@@ -8,6 +8,7 @@ sidebar_class_name: hidden
 ## Description
 
 Use this if you want things to only happen once per button press.
+Check [`here`](https://bully-scripting.vercel.app/docs/game-reference/scripting-enumeration/controls) for more info about the button ID and the controller ID.
 
 ```lua
 function IsButtonBeingPressed(button, controller) --[[ ... ]] end
@@ -24,5 +25,19 @@ function IsButtonBeingPressed(button, controller) --[[ ... ]] end
 
 ## Example
 
-None.
+Creates Russell ped in front of the player and sets his HP to 30.
+
+```lua
+if IsButtonBeingPressed(0, 0) then
+	local x, y, z = PedGetOffsetInWorldCoords(gPlayer, 0, 1, 0)
+	local Russell = PedCreateXYZ(75, x, y, z)
+	PedSetHealth(Russell, 30)
+end
+```
+
+## See Also
+
+- Game's Native
+  - [`IsButtonBeingReleased`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/IsButtonBeingReleased)
+  - [`IsButtonPressed`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/IsButtonPressed)
 
