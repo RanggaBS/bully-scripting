@@ -31,3 +31,10 @@ if PedIsValid(ped) then
 	TextPrintString(PedGetName(ped)..": "..PedGetHealth(ped).." hp", 3, 2)
 end
 ```
+
+## See Also
+
+- Game's Native
+  - [`PedGetTargetPed`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedGetTargetPed)
+  - [`PedIsValid`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedIsValid)
+  - [`PedSetHealth`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedSetHealth)
