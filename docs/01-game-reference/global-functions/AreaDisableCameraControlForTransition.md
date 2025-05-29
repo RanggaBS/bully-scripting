@@ -47,3 +47,8 @@ Wait(1000) -- wait an extra second for potential pop-in
 -- fade the camera back in
 CameraFade(1000, 1)
 ```
+
+## See Also
+
+- Game's Native
+  - [`AreaIsLoading`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaIsLoading)
