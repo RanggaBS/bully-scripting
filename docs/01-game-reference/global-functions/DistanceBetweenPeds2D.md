@@ -15,8 +15,8 @@ function DistanceBetweenPeds2D(ped1, ped2) --[[ ... ]] end
 
 ## Parameters
 
-- `ped1`: _`number`_ - The first pedestrian entity.
-- `ped2`: _`number`_ - The second pedestrian entity.
+- `ped1`: _`integer`_ - The first pedestrian entity.
+- `ped2`: _`integer`_ - The second pedestrian entity.
 
 ## Return Values
 
