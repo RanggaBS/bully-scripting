@@ -33,3 +33,7 @@ Transition to the front of the boy's dorm without fading the camera out.
 AreaTransitionXYZ(0, 270, -110, 6, true)
 ```
 
+## See Also
+
+- Game's Native
+  - [`PlayerSetPosXYZArea`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PlayerSetPosXYZArea)
