@@ -26,9 +26,17 @@ function CreateProjectile(projectileId, posx, posy, posz, dirx, diry, dirz, dama
 
 ## Return Values
 
-- `handle`: _`intejer`_ - A handle to the created projectile.
+- `handle`: _`integer`_ - A handle to the created projectile.
 
 ## Example
 
-None.
+```lua
+local X, Y, Z = PedGetOffsetInWorldCoords(gPlayer, 1, 0, 1) -- get front-mid coords of the player
+local H = PedGetHeading(gPlayer) -- heading
+CreateProjectile(322, X, Y, Z, -math.sin(H) / 5, math.cos(H) / 5, 0, 9999)
+```
 
+## See Also
+
+- Game's Native
+  - [`CreateProjectile`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/DestroyProjectile)
