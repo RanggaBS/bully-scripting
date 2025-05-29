@@ -27,5 +27,7 @@ None.
 
 ## Example
 
-None.
+```lua
+PedShowHealthBar(0, true, "N_Jimmy", true) -- the 0 on the first is the model and the N_Jimmy is the Model name
+```
 
