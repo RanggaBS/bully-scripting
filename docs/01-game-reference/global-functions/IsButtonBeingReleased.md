@@ -8,6 +8,7 @@ sidebar_class_name: hidden
 ## Description
 
 Use this to trigger actions only once per button release, rather than while it is up.
+Check [`here`](https://bully-scripting.vercel.app/docs/game-reference/scripting-enumeration/controls) for more info about the button ID and the controller ID.
 
 ```lua
 function IsButtonBeingReleased(button, controller) --[[ ... ]] end
