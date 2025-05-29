@@ -9,7 +9,7 @@ sidebar_class_name: hidden
 
 Deletes the given ped from the game.
 
-:::warning or danger
+:::danger
 Passing an invalid value (such as nil, a table, etc...) will crash the game.
 Always ensure the ped exists and is valid before calling this function.
 :::
