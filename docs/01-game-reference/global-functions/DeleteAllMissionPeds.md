@@ -10,18 +10,18 @@ sidebar_class_name: hidden
 Does not apply to peds who have been turned to Ambient peds.
 
 ```lua
-function DeleteAllMissionPeds(param1, ...) --[[ ... ]] end
+function DeleteAllMissionPeds() --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+None.
 
 ## Return Values
 
-...
+None.
 
 ## Example
 
-...
+None.
 
