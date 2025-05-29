@@ -23,5 +23,25 @@ None.
 
 ## Example
 
-None.
+```lua
+function main()
+    -- all your code goes here
+    MyThread = CreateThread("ActionThread")
+    -- any leftover code goes here
+end
+
+function ActionThread()
+    -- this is the thread that will run in the background
+    while true do
+        -- do something here, like checking a condition or performing an action
+        print("ActionThread is running...")
+        Wait(0)  -- waiting 0 seconds so that your game won't run out of memory
+    end
+end
+```
+
+## See Also
+
+- DSL
+  - [`CreateThread`](https://bully-scripting.vercel.app/docs/dsl-reference/global-functions/CreateThread)
 
