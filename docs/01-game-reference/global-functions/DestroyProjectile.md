@@ -25,3 +25,7 @@ None.
 
 None.
 
+## See Also
+
+- Game's Native
+  - [`CreateProjectile`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CreateProjectile)
