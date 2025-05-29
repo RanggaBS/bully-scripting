@@ -39,4 +39,4 @@ CreateProjectile(322, X, Y, Z, -math.sin(H) / 5, math.cos(H) / 5, 0, 9999)
 ## See Also
 
 - Game's Native
-  - [`CreateProjectile`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/DestroyProjectile)
+  - [`DestroyProjectile`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/DestroyProjectile)
