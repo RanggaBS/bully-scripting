@@ -25,6 +25,7 @@ function IsButtonPressed(button, controller) --[[ ... ]] end
 
 ## Example
 
+```lua
 function main()
     print("Press and hold Space Bar to start counting...")
     local counter = 0
@@ -43,6 +44,7 @@ function main()
         end
     end
 end
+```
 
 ## See Also
 
