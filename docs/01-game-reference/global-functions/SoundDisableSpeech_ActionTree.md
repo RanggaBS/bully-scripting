@@ -7,10 +7,11 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Prevents every ped's action tree from triggering speech.
+<br/>This is not the same as [`SoundDisableSpeech`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/SoundDisableSpeech), which disables all speech entirely.
 
 ```lua
-function SoundDisableSpeech_ActionTree(param1, ...) --[[ ... ]] end
+function SoundDisableSpeech_ActionTree() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -25,3 +26,7 @@ function SoundDisableSpeech_ActionTree(param1, ...) --[[ ... ]] end
 
 ...
 
+## See Also
+
+- Game's Native
+  - [`SoundEnableSpeech_ActionTree`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/SoundEnableSpeech_ActionTree)

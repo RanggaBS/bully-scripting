@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Allows every ped's Action Tree to trigger speech again, if disabled by [`SoundDisableSpeech_ActionTree`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/SoundDisableSpeech_ActionTree).
 
 ```lua
-function SoundEnableSpeech_ActionTree(param1, ...) --[[ ... ]] end
+function SoundEnableSpeech_ActionTree() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -25,3 +25,7 @@ function SoundEnableSpeech_ActionTree(param1, ...) --[[ ... ]] end
 
 ...
 
+## See Also
+
+- Game's Native
+  - [`SoundDisableSpeech_ActionTree`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/SoundEnableSpeech_ActionTree)

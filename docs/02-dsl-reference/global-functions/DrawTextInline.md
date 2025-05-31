@@ -40,4 +40,4 @@ DrawTextInline('Hello, world!', 5, 1)
 ## See Also
 
 - Game's Native
-  - [`TextPrintString`](../../game-reference/global-functions/TextPrintString) - Same, but red-colored text.
+  - [`TextPrintString`](../../game-reference/global-functions/TextPrintString)

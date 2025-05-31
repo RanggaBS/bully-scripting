@@ -7,10 +7,15 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Stops all game logic.
+
+:::danger
+There is no known way to recover from this state outside of using DSL.
+<br/>Do not use unless experimenting.
+:::
 
 ```lua
-function PauseSimulation(param1, ...) --[[ ... ]] end
+function PauseSimulation() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -25,3 +30,7 @@ function PauseSimulation(param1, ...) --[[ ... ]] end
 
 ...
 
+## See Also
+
+- Game's Native
+  - [`UnpauseSimulation`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/UnpauseSimulation)

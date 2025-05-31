@@ -7,15 +7,15 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Changes the counter from a number indicator to a filling bar.
 
 ```lua
-function CounterUseMeter(param1, ...) --[[ ... ]] end
+function CounterUseMeter(state) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `state`: _`boolean`_ - Whether to use the filling bar style.
 
 ## Return Values
 

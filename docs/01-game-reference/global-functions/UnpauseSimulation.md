@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Resumes all game logic if previously stopped with [`PauseSimulation`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PauseSimulation).
 
 ```lua
-function UnpauseSimulation(param1, ...) --[[ ... ]] end
+function UnpauseSimulation() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -25,3 +25,6 @@ function UnpauseSimulation(param1, ...) --[[ ... ]] end
 
 ...
 
+## See Also
+
+  - [`PauseSimulation`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PauseSimulation)

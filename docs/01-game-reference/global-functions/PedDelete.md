@@ -43,4 +43,5 @@ end
   - [`IsButtonBeingPressed`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/IsButtonBeingPressed)
   - [`PedCreateXYZ`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedCreateXYZ)
   - [`PedGetOffsetInWorldCoords`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedGetOffsetInWorldCoords)
+  - [`PedIsValid`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PedIsValid)
 

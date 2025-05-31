@@ -10,12 +10,12 @@ sidebar_class_name: hidden
 Makes the camera return to the player, similar to using [**CameraSetActive**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraSetActive) and [**CameraFollowPed**](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraFollowPed).
 
 ```lua
-function CameraReturnToPlayer() --[[ ... ]] end
+function CameraReturnToPlayer(state) --[[ ... ]] end
 ```
 
 ## Parameters
 
-None.
+- `state`: _`boolean`_ - Whether to snap to player immediately or not.
 
 ## Return Values
 

@@ -7,10 +7,11 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Restores the camera FOV to its default value.
+<br/>Useful after manipulating it with [`CameraSetFOV`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/CameraSetFOV).
 
 ```lua
-function CameraDefaultFOV(param1, ...) --[[ ... ]] end
+function CameraDefaultFOV() --[[ ... ]] end
 ```
 
 ## Parameters
