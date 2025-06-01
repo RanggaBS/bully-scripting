@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Resets current game and starts a new one.
 
 ```lua
-function DemoBuildReturnToMain(param1, ...) --[[ ... ]] end
+function DemoBuildReturnToMain() --[[ ... ]] end
 ```
 
 ## Parameters

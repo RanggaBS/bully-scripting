@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Used to let the game return to its default weather behaviour after manipulating it with [`WeatherSet`](/docs/game-reference/global-functions/WeatherSet).
 
 ```lua
-function WeatherRelease(param1, ...) --[[ ... ]] end
+function WeatherRelease() --[[ ... ]] end
 ```
 
 ## Parameters

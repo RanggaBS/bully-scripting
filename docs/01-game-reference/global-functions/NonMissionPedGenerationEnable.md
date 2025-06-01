@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Resumes ambient ped spawning if previously stopped with [`NonMissionPedGenerationDisable`](/docs/game-reference/global-functions/NonMissionPedGenerationDisable).
 
 ```lua
-function NonMissionPedGenerationEnable(param1, ...) --[[ ... ]] end
+function NonMissionPedGenerationEnable() --[[ ... ]] end
 ```
 
 ## Parameters

@@ -15,7 +15,7 @@ function ToggleHUDComponentVisibility(hud, state) --[[ ... ]] end
 
 ## Parameters
 
-- `hud`: _`number`_ - HUD ID
+- `hud`: _`integer`_ - HUD ID
 - `state`: _`boolean`_ - Whether to display it
 
 ## Return Values

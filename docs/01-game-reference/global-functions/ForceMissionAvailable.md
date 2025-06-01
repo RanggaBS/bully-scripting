@@ -7,15 +7,15 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Ignores the mission's availability conditions and spawns its interactable (if any) or starts it immediately.
 
 ```lua
-function ForceMissionAvailable(param1, ...) --[[ ... ]] end
+function ForceMissionAvailable(missionID) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `missionID`: _`string`_ - The ID of the mission.
 
 ## Return Values
 

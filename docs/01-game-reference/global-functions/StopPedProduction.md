@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Prevents the game from spawning any ped whatsoever.
 
 ```lua
 function StopPedProduction(state) --[[ ... ]] end
@@ -25,3 +25,7 @@ None.
 
 None.
 
+## See Also
+
+- Game's Native
+  - [`NonMissionPedGenerationDisable`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/NonMissionPedGenerationDisable)

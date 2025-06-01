@@ -27,4 +27,5 @@ function UnpauseSimulation() --[[ ... ]] end
 
 ## See Also
 
+- Game's Native
   - [`PauseSimulation`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/PauseSimulation)

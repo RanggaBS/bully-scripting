@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Unpauses the in-game clock if previously stopped with [`PauseGameClock`](/docs/game-reference/global-functions/PauseGameClock).
 
 ```lua
-function UnpauseGameClock(param1, ...) --[[ ... ]] end
+function UnpauseGameClock() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -24,4 +24,3 @@ function UnpauseGameClock(param1, ...) --[[ ... ]] end
 ## Example
 
 ...
-

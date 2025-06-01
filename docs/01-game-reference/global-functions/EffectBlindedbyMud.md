@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Triggers a short, fading-out, brown FX on screen.
 
 ```lua
-function EffectBlindedbyMud(param1, ...) --[[ ... ]] end
+function EffectBlindedbyMud() --[[ ... ]] end
 ```
 
 ## Parameters

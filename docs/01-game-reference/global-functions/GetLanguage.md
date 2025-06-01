@@ -7,10 +7,11 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Returns the current game language.
+<br/>Not available on PS2.
 
 ```lua
-function GetLanguage(param1, ...) --[[ ... ]] end
+function GetLanguage() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -19,7 +20,7 @@ function GetLanguage(param1, ...) --[[ ... ]] end
 
 ## Return Values
 
-...
+- `language`: _`integer`_ - The ID of the game's language.
 
 ## Example
 

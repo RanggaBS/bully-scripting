@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Loads entities spawned with [`AreaLoadSpecialEntities`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/AreaLoadSpecialEntities) immediately.
 
 ```lua
-function AreaEnsureSpecialEntitiesAreCreated(param1, ...) --[[ ... ]] end
+function AreaEnsureSpecialEntitiesAreCreated() --[[ ... ]] end
 ```
 
 ## Parameters
