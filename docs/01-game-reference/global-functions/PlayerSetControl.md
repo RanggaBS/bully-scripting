@@ -7,15 +7,15 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Toggles control for Jimmy.
 
 ```lua
-function PlayerSetControl(param1, ...) --[[ ... ]] end
+function PlayerSetControl(state) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `state`: _`integer`_ - Whether to enable control.
 
 ## Return Values
 

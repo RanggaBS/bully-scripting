@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Returns if the player is hiding in a trash can, locker... etc.
 
 ```lua
-function PlayerIsInStealthProp(param1, ...) --[[ ... ]] end
+function PlayerIsInStealthProp() --[[ ... ]] end
 ```
 
 ## Parameters

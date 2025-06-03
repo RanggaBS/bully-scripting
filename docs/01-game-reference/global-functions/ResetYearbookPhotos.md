@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Self-explanatory.
 
 ```lua
-function ResetYearbookPhotos(param1, ...) --[[ ... ]] end
+function ResetYearbookPhotos() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -23,5 +23,8 @@ function ResetYearbookPhotos(param1, ...) --[[ ... ]] end
 
 ## Example
 
-...
+## See Also
+
+- Game's Native
+  - [`UnlockYearbookPicture`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/UnlockYearbookPicture)
 

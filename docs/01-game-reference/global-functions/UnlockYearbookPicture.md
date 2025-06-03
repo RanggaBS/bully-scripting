@@ -10,12 +10,12 @@ sidebar_class_name: hidden
 ...
 
 ```lua
-function UnlockYearbookPicture(param1, ...) --[[ ... ]] end
+function UnlockYearbookPicture(picture) --[[ ... ]] end
 ```
 
 ## Parameters
 
-...
+- `picture`: _`integer`_ - Ped ID
 
 ## Return Values
 
@@ -23,5 +23,8 @@ function UnlockYearbookPicture(param1, ...) --[[ ... ]] end
 
 ## Example
 
-...
+## See Also
+
+- Game's Native
+  - [`ResetYearbookPhotos`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/ResetYearbookPhotos)
 

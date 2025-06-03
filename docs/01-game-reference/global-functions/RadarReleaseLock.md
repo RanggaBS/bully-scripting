@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Restores dynamic radar floor changes if previous locked with [`RadarLockOnFloor`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/RadarLockOnFloor)/[`RadarLockonPoint`](https://bully-scripting.vercel.app/docs/game-reference/global-functions/RadarLockonPoint).
 
 ```lua
-function RadarReleaseLock(param1, ...) --[[ ... ]] end
+function RadarReleaseLock() --[[ ... ]] end
 ```
 
 ## Parameters

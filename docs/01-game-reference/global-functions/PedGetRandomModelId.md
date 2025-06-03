@@ -7,10 +7,13 @@ sidebar_class_name: hidden
 
 ## Description
 
-...
+Returns a random ID from the ped list.
+:::note
+It will never return an ID higher than 238.
+:::
 
 ```lua
-function PedGetRandomModelId(param1, ...) --[[ ... ]] end
+function PedGetRandomModelId() --[[ ... ]] end
 ```
 
 ## Parameters
@@ -19,7 +22,7 @@ function PedGetRandomModelId(param1, ...) --[[ ... ]] end
 
 ## Return Values
 
-...
+- `id`: _`integer`_ - The ped ID.
 
 ## Example
 
