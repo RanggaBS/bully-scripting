@@ -5,10 +5,11 @@ sidebar_label: -- progress
 
 # Progress
 
-53 of 327 functions have been documented.
+54 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
+1. [`AddScriptLoaderCallback`](./AddScriptLoaderCallback)
 1. [`AllConfigValues`](./AllConfigValues)
 1. [`AllPeds`](./AllPeds)
 1. [`CameraGetXYZ`](./CameraGetXYZ)
