@@ -22,7 +22,7 @@ function SetMinigameActive(missionIndex) --[[ ... ]] end
 
 `missionIndex`: _`number`_
 
-See: [`Mission Index`](/docs/01-game-reference/scripting-enumeration/mission-index)
+See: [`Mission Index`](/docs/game-reference/scripting-enumeration/mission-index)
 
 ## Return Values
 
