@@ -20,7 +20,7 @@ function SetMissionActive(missionIndex) --[[ ... ]] end
 
 ## Parameters
 
-`missionIndex`: _`missionIndex`_
+`missionIndex`: _`number`_
 
 See: [`Mission Index`](/docs/01-game-reference/scripting-enumeration/mission-index)
 
