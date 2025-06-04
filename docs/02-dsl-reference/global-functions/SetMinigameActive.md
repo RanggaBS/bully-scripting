@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-Simulates an active minigame state without fully initiating it. Similar to [`SetMissionActive`](/docs/02-dsl-reference/global-functions/SetMinigameActive), this function tricks the game into treating a minigame as currently active. The primary distinction when using this function is that it removes the corona blips associated with any spawned minigames or class-related activities. This effectively prevents the player from accessing those events while a minigame is marked as active.
+Simulates an active minigame state without fully initiating it. Similar to [`SetMissionActive`](/docs/dsl-reference/global-functions/SetMinigameActive), this function tricks the game into treating a minigame as currently active. The primary distinction when using this function is that it removes the corona blips associated with any spawned minigames or class-related activities. This effectively prevents the player from accessing those events while a minigame is marked as active.
 
 :::info
 - Although this function accepts any mission index, including many that are unplayable, it is safe to use in the sense that it will not cause softlocks or crashes on its own.
