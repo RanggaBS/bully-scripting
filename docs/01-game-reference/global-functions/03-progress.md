@@ -5,8 +5,11 @@ sidebar_label: -- progress
 
 # Progress
 
-1 of 1732 functions have been documented.
+4 of 1732 functions have been documented.
 
 A list of functions that have been documented.
 
 - [`PedCreateXYZ`](./PedCreateXYZ)
+- [`ForceStartMissionIndex`](./ForceStartMissionIndex)
+- [`MissionGetName`](./MissionGetName)
+- [`GetMissionCount`](./GetMissionCount)
