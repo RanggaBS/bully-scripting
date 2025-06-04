@@ -7,13 +7,13 @@ description: This index contains all available (or previously available) mission
 The mission index feature is relatively uncommon within the game’s framework. Unlike mission codes (string) which serve as the standard and widely accepted method for starting, tracking, and completing missions, the mission index offers an alternative approach, though it is less frequently utilized and mostly used for debugging purpose.
 
 Known usage in the base game functions:
-- [`ForceStartMissionIndex`](/docs/01-game-reference/global-functions/ForceStartMissionIndex)
-- [`MissionGetName`](/docs/01-game-reference/global-functions/MissionGetName)
-- [`GetMissionCount`](/docs/01-game-reference/global-functions/GetMissionCount)
+- [`ForceStartMissionIndex`](/docs/game-reference/global-functions/ForceStartMissionIndex)
+- [`MissionGetName`](/docs/game-reference/global-functions/MissionGetName)
+- [`GetMissionCount`](/docs/game-reference/global-functions/GetMissionCount)
 
 In DSL 10, it is possible to simulate an active mission by spoofing the game using its mission index.
-- [`SetMissionActive`](/docs/02-dsl-reference/global-functions/SetMissionActive)
-- [`SetMinigameActive`](/docs/02-dsl-reference/global-functions/SetMinigameActive)
+- [`SetMissionActive`](/docs/dsl-reference/global-functions/SetMissionActive)
+- [`SetMinigameActive`](/docs/dsl-reference/global-functions/SetMinigameActive)
 
 | ID  | Mission Name                                           |
 |-----|--------------------------------------------------------|
