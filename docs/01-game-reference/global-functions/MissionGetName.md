@@ -12,7 +12,7 @@ Converts a mission index to its corresponding name. Note that while this functio
 Example:
 Mission index 220 is commonly recognized as "ConSumo" in the released version of the game. However, passing 220 as the argument to this function will return "Train-A-Sumo", its internal development name. This naming mismatch also applies to many mission indices.
 
-See: [`Mission Index`](/docs/01-game-reference/scripting-enumeration/mission-index)
+See: [`Mission Index`](/docs/game-reference/scripting-enumeration/mission-index)
 
 ```lua
 function MissionGetName(missionIndex) --[[ ... ]] end
