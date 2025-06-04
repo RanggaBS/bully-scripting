@@ -1,12 +1,12 @@
 ---
-description: This index contains all available (or previously available) missions, primarily used as a reference for initiating missions without relying on their specific mission codes.
+description: This index contains all available (or previously available) missions, primarily used as a reference for starting missions without relying on their specific mission codes.
 ---
 
 # Mission Index
 
 The mission index feature is relatively uncommon within the game’s framework. Unlike mission codes (string) which serve as the standard and widely accepted method for starting, tracking, and completing missions, the mission index offers an alternative approach, though it is less frequently utilized and mostly used for debugging purpose.
 
-Known usage in base game functions:
+Known usage in the base game functions:
 - [`ForceStartMissionIndex`](/docs/01-game-reference/global-functions/ForceStartMissionIndex)
 - [`MissionGetName`](/docs/01-game-reference/global-functions/MissionGetName)
 - [`GetMissionCount`](/docs/01-game-reference/global-functions/GetMissionCount)
