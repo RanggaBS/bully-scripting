@@ -1,5 +1,5 @@
 ---
-description: Class indices used to determine the player's grade.
+description: Class indices used to determine where the player's grade belong to.
 ---
 
 # Class Indices
