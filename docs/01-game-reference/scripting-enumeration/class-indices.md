@@ -10,7 +10,7 @@ Known usage in the base game functions:
 - [`PlayerSetGrade`](/docs/game-reference/global-functions/PlayerSetGrade)
 - [`MinigameSetGrades`](/docs/game-reference/global-functions/MinigameSetGrades)
 
-| State ID | Description  |
+| Index    | Name         |
 | -------: | :----------- |
 |        0 | Art          |
 |        1 | Chemistry    |
