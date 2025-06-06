@@ -6,7 +6,7 @@ description: Enumeration of each weather type in the game.
 
 The various weather the game may shuffle through.
 
-Related functions: [`WeatherSet`](/docs/game-reference/global-functions/WeatherSet)
+Related functions: [`WeatherGet`](/docs/game-reference/global-functions/WeatherGet), [`WeatherSet`](/docs/game-reference/global-functions/WeatherSet)
 
 | Weather ID  | Weather       |
 | ----------: | :------------ |

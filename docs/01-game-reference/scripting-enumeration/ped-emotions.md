@@ -4,7 +4,7 @@ description: Ped emotions determine how they will treat other peds.
 
 # Ped Emotions
 
-Ped emotions determine how they will treat other peds. It can be changed by lots of different stimuli or through scripting.
+Ped emotions determine how they will treat other peds. They can be changed by lots of different stimuli or through scripting.
 
 The names of emotions come directly from the game's code, and have not been modified.
 

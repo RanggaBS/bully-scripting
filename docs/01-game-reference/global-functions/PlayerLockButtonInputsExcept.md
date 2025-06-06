@@ -8,7 +8,7 @@ sidebar_class_name: hidden
 ## Description
 
 Allows locking only certain inputs.
-<br/>Exact amount of paramters it can take is unknown, but it's at least 9.
+<br/>Exact amount of parameters it can take is unknown, but it's at least 9.
 
 ```lua
 function PlayerLockButtonInputsExcept(state, input1, input2, ...) --[[ ... ]] end

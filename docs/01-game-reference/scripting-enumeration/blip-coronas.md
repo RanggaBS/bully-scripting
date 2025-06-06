@@ -4,7 +4,7 @@ description: Enumeration of blip coronas used in the game.
 
 # Blip Coronas
 
-Blip coronas refer to the part of the blip drawn on the ground. All though not every type here refers to a 'corona', they are still called coronas for lack of a better known term.
+Blip coronas refer to the part of the blip drawn on the ground. Although not every type here refers to a 'corona', they are still called coronas for lack of a better known term.
 
 The names of coronas are made up based on experimentation, and the list is not necessarily complete.
 
