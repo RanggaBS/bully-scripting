@@ -233,6 +233,14 @@
   display: none !important;
 }
 
+/*
+  Hide columns with that has "hidden" class in the category page
+  Eliminates blank space in the category page
+*/
+.col.col--6:has(.hidden) {
+  display: none !important;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Code Block Line Highlighting                                               */
 /* -------------------------------------------------------------------------- */
