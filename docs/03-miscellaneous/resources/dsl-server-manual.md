@@ -83,7 +83,7 @@ By itself, a server will do nothing to players' games. It is only through script
 
 Official scripts (made or endorsed by _derpy54320_) are available on [GitHub](https://github.com/derpy54320). These scripts all have their own `config.txt` that you should check out and configure if you decide to use them. Some scripts can integrate with each other, but none are configured to do so by default.
 
-While most official scripts are documented here, [basync](./) has its own page due to how complex it is. It provides a modular base for multiplayer.
+While most official scripts are documented here, [basync](/docs/basync) has its own page due to how complex it is. It provides a modular base for multiplayer.
 
 If you are interested in making your own network scripts, you can check out this page to get started.
 
