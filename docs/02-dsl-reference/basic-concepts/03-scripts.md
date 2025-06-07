@@ -1,10 +1,9 @@
 ---
 sidebar_position: 3
-title: 'Scripts & Threads'
-pagination_label: 'Scripts & Threads'
-sidebar_label: 'Scripts & Threads'
-# description: 'Scripts and threads in DSL are similar to normal scripts, but with additional features and functionality. This section covers how to create and manage scripts, thread types, and script flow.'
-description: 'Scripts and threads in DSL are similar to normal scripts, but with additional features and functionality.'
+title: Scripts & Threads
+pagination_label: Scripts & Threads
+sidebar_label: Scripts & Threads
+description: DSL scripts and threads act similarly to normal scripts, with some additional features and functions. This guide covers script flow, environments, thread types, order, and compatibility with the base game.
 ---
 
 # Scripts & Threads

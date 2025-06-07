@@ -1,14 +1,14 @@
 ---
 sidebar_position: 4
-title: 'Network Scripting'
-pagination_label: 'Network Scripting'
-sidebar_label: 'Network Scripting'
-description: 'Learn how to create network scripts for the server version of the DSL, including client scripts, network events, and player objects.'
+title: Network Scripting
+pagination_label: Network Scripting
+sidebar_label: Network Scripting
+description: Network scripting in DSL allows you to create client scripts that run on players' machines when they connect to a server. This guide covers how to define client scripts, handle network events, and manage player objects.
 ---
 
 # Network Scripting
 
-Read about the basics of the server version in the [about](./about-dsl#derpy-script-server) section, and download the latest server version in the [download](./network-scripting) section.
+Read about the basics of the server version in the [about](about-dsl#derpy-script-server) section, and download the latest server version in the [download](/docs/miscellaneous/downloads/dsl) section.
 
 ## Client Scripts
 
@@ -20,7 +20,7 @@ The full `config.txt` from each server script collection is sent to players, so 
 
 ## Network Events
 
-A network event handler can be created using [RegisterNetworkEventHandler](../global-functions/RegisterNetworkEventHandler) to run some code when a network event is triggered using [SendNetworkEvent](../global-functions/SendNetworkEvent).
+A network event handler can be created using [RegisterNetworkEventHandler](/docs/dsl-reference/global-functions/RegisterNetworkEventHandler) to run some code when a network event is triggered using [SendNetworkEvent](/docs/dsl-reference/global-functions/SendNetworkEvent).
 
 By default no network events exist, and you can make your own events by just sending one as there is no "creation" of events. Although events can be named whatever you like, it is advised you prefix your event to make sure it is unique and to make it easy to tell what script it may have come from. For example instead of `"playerKilled"`, you are urged to use something like `"mod_name:playerKilled"`.
 
@@ -28,7 +28,7 @@ Network events can only be activated by the other side of the connection. This m
 
 ## Local Server Events
 
-A local event handler can be created using [RegisterLocalEventHandler](../global-functions/RegisterLocalEventHandler).
+A local event handler can be created using [RegisterLocalEventHandler](/docs/dsl-reference/global-functions/RegisterLocalEventHandler).
 
 You may need to make these on the server to respond to player related events. Player events (such as `PlayerDropped`) are considered local because they come from the server itself, which means you can always trust them and their arguments unlike network events.
 

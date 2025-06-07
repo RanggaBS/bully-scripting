@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
-title: 'About DSL'
-pagination_label: 'About DSL'
-sidebar_label: 'About'
-description: 'Learn about the DSL, its purpose, and how it can help you in your projects.'
+title: About DSL
+pagination_label: About DSL
+sidebar_label: About
+description: "Derpy's Script Loader (DSL) is a script loader for Bully: Scholarship Edition (PC). It allows you to run scripts, access Lua's standard library, and provides many features to enhance the modding experience."
 ---
 
 # Derpy Script Loader
 
 Derpy's Script Loader (DSL) is a script loader for Bully: Scholarship Edition (PC).
-It can be downloaded [here](./about-dsl), and installation is covered by the included `readme.txt`.
+It can be downloaded [here](/docs/miscellaneous/downloads/dsl), and installation is covered by the included `readme.txt`.
 Here are a few of the things that DSL excels at doing, and how they help the overall modding process.
 
 - Load scripts directly from a folder with the simple loading system, or even from a zip archive.
@@ -29,8 +29,8 @@ Here are a few of the things that DSL excels at doing, and how they help the ove
 
 ## Derpy Script Server
 
-Derpy's Script Server is the server version of DSL. It can be downloaded [here](./about-dsl).
-If you want to know more about making network scripts for DSL see network scripting.
+Derpy's Script Server is the server version of DSL. It can be downloaded [here](/docs/miscellaneous/downloads/dsl).
+If you want to know more about making network scripts for DSL see [network scripting](network-scripting).
 A server can send scripts to players and facilitate communication between players via scripting.
 No form of game sync is done by DSL or the server itself. Here are some things you can expect from the server.
 
@@ -43,9 +43,9 @@ No form of game sync is done by DSL or the server itself. Here are some things y
 
 Use the navigation bar on the left if you are looking for DSL functions.
 
-All mods that you make or install with DSL are put in the `_derpy_script_loader/scripts` folder, and are technically called 'script collections'.
+All mods that you make or install with DSL are put in the `_derpy_script_loader/scripts` folder, and are technically called [script collections](collections).
 
-If you already know how to script mod but are new to DSL, the quickest way to learn is to just make a new file in DSL's `scripts` folder and call it something like `mymod.lua`. Open it in your favorite editor, and make a script like you normally would with a `MissionSetup`, `main`, and `MissionCleanup` function. Unlike replacing a built-in script like `ArcRace1.lur`, your script will run as soon as the game starts. It is for this reason that you will need to wait for `SystemIsReady` to return true before doing most things to avoid any crashes. For the most part, it should be just like making a `STimeCycle.lur` mod. Unlike normal scripting you will not need to compile your script, just start the game! Open the console (using ~ by default) to see if you got any errors, and type `/restart mymod.lua` to restart your script.
+If you already know how to script mod but are new to DSL, the quickest way to learn is to just make a new file in DSL's `scripts` folder and call it something like `mymod.lua`. Open it in your favorite editor, and make a script like you normally would with a `MissionSetup`, `main`, and `MissionCleanup` function. Unlike replacing a built-in script like `ArcRace1.lur`, your script will run as soon as the game starts. It is for this reason that you will need to wait for [`SystemIsReady`](/docs/game-reference/global-functions/SystemIsReady) to return true before doing most things to avoid any crashes. For the most part, it should be just like making a `STimeCycle.lur` mod. Unlike normal scripting you will not need to compile your script, just start the game! Open the console (using ~ by default) to see if you got any errors, and type `/restart mymod.lua` to restart your script.
 
 ## Version History
 

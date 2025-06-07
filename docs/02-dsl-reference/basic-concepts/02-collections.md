@@ -1,8 +1,8 @@
 ---
 sidebar_position: 2
-pagination_label: 'Script Collections'
-sidebar_label: 'Script Collections'
-description: 'Script collections are a way to group scripts together, allowing for easier management and organization of mods in DSL.'
+pagination_label: Script Collections
+sidebar_label: Script Collections
+description: Script collections are a way to group scripts together, allowing for easier management and organization of mods in DSL.
 ---
 
 # Script Collections
