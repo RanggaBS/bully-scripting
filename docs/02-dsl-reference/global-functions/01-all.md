@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 pagination_label: All Global Functions
-sidebar_label: All DSL Global Functions
+sidebar_label: All
 description: A list of all global functions that DSL provides, including their DSL version and a brief description.
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 pagination_label: All Global Functions
-sidebar_label: All Game's Global Functions
+sidebar_label: All
 description: A comprehensive list of all global functions available in the game.
 ---
 
