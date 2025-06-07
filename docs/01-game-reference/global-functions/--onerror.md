@@ -1,16 +1,17 @@
 ---
 description: ...
 sidebar_class_name: hidden
+pagination_label: __onerror
 ---
 
-# _ALERT
+# \_\_onerror
 
 ## Description
 
 ...
 
 ```lua
-function _ALERT(param1, ...) --[[ ... ]] end
+function __onerror(param1, ...) --[[ ... ]] end
 ```
 
 ## Parameters
@@ -24,4 +25,3 @@ function _ALERT(param1, ...) --[[ ... ]] end
 ## Example
 
 ...
-

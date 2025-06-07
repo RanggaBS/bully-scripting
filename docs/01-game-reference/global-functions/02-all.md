@@ -1744,8 +1744,8 @@ Here's all the 1742 global functions provided by the game.
 | 1731 | [`WeatherRelease`](./WeatherRelease)                                                                   | ...                                                |
 | 1732 | [`WeatherSet`](./WeatherSet)                                                                           | ...                                                |
 | 1733 | [`YearbookIsFull`](./YearbookIsFull)                                                                   | ...                                                |
-| 1734 | [`_ALERT`](./_ALERT)                                                                                   | ...                                                |
-| 1735 | [`__onerror`](./__onerror)                                                                             | ...                                                |
+| 1734 | [`_ALERT`](./-ALERT)                                                                                   | ...                                                |
+| 1735 | [`__onerror`](./--onerror)                                                                             | ...                                                |
 | 1736 | [`bsDumpMemUsage`](./bsDumpMemUsage)                                                                   | ...                                                |
 | 1737 | [`bsDumpRunTimeMetrics`](./bsDumpRunTimeMetrics)                                                       | ...                                                |
 | 1738 | [`bsMarkCheckPoint`](./bsMarkCheckPoint)                                                               | ...                                                |
