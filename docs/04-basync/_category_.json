@@ -1,0 +1,8 @@
+{
+  "label": "Basync",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Basync is a script collection designed to provide basic extensible sync to your DSL server."
+  }
+}
