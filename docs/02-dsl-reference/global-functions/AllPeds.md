@@ -40,5 +40,5 @@ end
 ## See Also
 
 - Game's Native
-  - [`PedFindInAreaXYZ`](/docs/game-reference/global-functions/PedFindInAreaXYZ) - Returns all peds within a specified 3D area.
-  - [`PedGetName`](./PedGetName)
+  - [`PedFindInAreaXYZ`](/docs/game-reference/global-functions/PedFindInAreaXYZ)
+  - [`PedGetName`](/docs/game-reference/global-functions/PedGetName)

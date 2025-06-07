@@ -31,5 +31,6 @@ ClearCommand("my_custom_command")
 
 ## See Also
 
-- [`DoesCommandExist`](./DoesCommandExist): To check if a command is registered before attempting to clear it.
-- [`RegisterCommand`](./RegisterCommand): To register a command that can be executed in the script.
+- DSL
+  - [`DoesCommandExist`](./DoesCommandExist) - To check if a command is registered before attempting to clear it.
+  - [`SetCommand`](./SetCommand) - To register a command that can be executed in the script.

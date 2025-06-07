@@ -9,7 +9,7 @@ sidebar_class_name: hidden
 
 ## Description
 
-Get a _text formatting table_ representing the current [text formatting](./) options for later re-application with [`SetTextFormatting`](./SetTextFormatting).
+Get a _text formatting table_ representing the current [text formatting](/docs/dsl-reference/basic-concepts/render-functions) options for later re-application with [`SetTextFormatting`](./SetTextFormatting).
 
 This function is usually the less preferable option compared to [`PopTextFormatting`](./PopTextFormatting).
 

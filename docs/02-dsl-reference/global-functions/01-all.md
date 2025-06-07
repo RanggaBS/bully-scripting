@@ -140,7 +140,7 @@ Here's the list of all 327 global functions that DSL _currently_ provides.
 | 125 | [`GetSystemTimer`](./GetSystemTimer)                                           | (DSL4)      |
 | 126 | [`GetTextFormatting`](./GetTextFormatting)                                     | (DSL1)      |
 | 127 | [`GetTextureAspectRatio`](./GetTextureAspectRatio)                             | (DSL1)      |
-| 128 | [`GetTextureDisplayAspectRati`](./GetTextureDisplayAspectRati)                 | (DSL1)      |
+| 128 | [`GetTextureDisplayAspectRatio`](./GetTextureDisplayAspectRatio)               | (DSL1)      |
 | 129 | [`GetTextureResolution`](./GetTextureResolution)                               | (DSL1)      |
 | 130 | [`GetThreadName`](./GetThreadName)                                             | (DSL4)      |
 | 131 | [`GetThreadWait`](./GetThreadWait)                                             | (DSL1)      |
