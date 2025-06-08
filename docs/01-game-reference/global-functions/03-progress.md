@@ -61,7 +61,6 @@ A list of functions that have been documented.
 - [`DistanceBetweenPeds2D`](./DistanceBetweenPeds2D)
 - [`DistanceBetweenPeds3D`](./DistanceBetweenPeds3D)
 - [`DoublePedShadowDistance`](./DoublePedShadowDistance)
-- [`DrawTextInline`](./DrawTextInline)
 - [`EffectBlindedbyMud`](./EffectBlindedbyMud)
 - [`EffectCreate`](./EffectCreate)
 - [`EffectIsRunning`](./EffectIsRunning)
