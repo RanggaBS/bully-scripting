@@ -64,3 +64,4 @@ A list of functions that have been documented:
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
 1. [`SetMissionActive`](./SetMissionActive)
 1. [`SetMinigameActive`](./SetMinigameActive)
+1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
