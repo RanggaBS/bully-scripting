@@ -15,8 +15,8 @@ function PedGetActionNode(ped, data) --[[ ... ]] end
 
 ## Parameters
 
-`ped`: _`number`_ - The ID of the created ped.
-`data`: _`table`_ - A table containing plaintext strings.
+- `ped`: _`number`_ - The ID of the created ped.
+- `data`: _`table`_ - A table containing plaintext strings.
 
 :::info
 Plaintexts are only required if you want the function to return a readable action node name, as seen in uncompiled .cat files. If not needed, you may leave the data table empty.
