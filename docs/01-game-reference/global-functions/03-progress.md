@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-142 of 1732 functions have been documented.
+141 of 1732 functions have been documented.
 
 A list of functions that have been documented.
 
