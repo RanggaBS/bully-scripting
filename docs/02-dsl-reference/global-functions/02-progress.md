@@ -44,6 +44,7 @@ A list of functions that have been documented:
 1. [`GetTextureAspectRatio`](./GetTextureAspectRatio)
 1. [`GetTextureDisplayAspectRatio`](./GetTextureDisplayAspectRatio)
 1. [`GetTextureResolution`](./GetTextureResolution)
+1. [`GetTypingString`](./GetTypingString)
 1. [`HookFunction`](./HookFunction)
 1. [`IsConfigMissing`](./IsConfigMissing)
 1. [`IsConsoleActive`](./IsConsoleActive)
