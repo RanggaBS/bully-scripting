@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-66 of 327 functions have been documented.
+67 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -75,3 +75,4 @@ A list of functions that have been documented:
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
 1. [`WasTypingAborted`](./WasTypingAborted)
+1. [`print`](./print)
