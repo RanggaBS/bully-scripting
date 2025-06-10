@@ -66,3 +66,4 @@ A list of functions that have been documented:
 1. [`SetMinigameActive`](./SetMinigameActive)
 1. [`SetMissionActive`](./SetMissionActive)
 1. [`StartTyping`](./StartTyping)
+1. [`WasTypingAborted`](./WasTypingAborted)
