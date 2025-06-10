@@ -65,6 +65,7 @@ A list of functions that have been documented:
 1. [`PedGetActionNode`](./PedGetActionNode)
 1. [`PedGetModelId`](./PedGetModelId)
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
+1. [`SetCommand`](./SetCommand)
 1. [`SetMinigameActive`](./SetMinigameActive)
 1. [`SetMissionActive`](./SetMissionActive)
 1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
