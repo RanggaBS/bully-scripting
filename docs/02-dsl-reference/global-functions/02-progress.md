@@ -5,11 +5,12 @@ sidebar_label: -- progress
 
 # Progress
 
-65 of 327 functions have been documented.
+66 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
 1. [`AddScriptLoaderCallback`](./AddScriptLoaderCallback)
+1. [`AllConfigStrings`](./AllConfigStrings)
 1. [`AllConfigValues`](./AllConfigValues)
 1. [`AllPeds`](./AllPeds)
 1. [`CameraGetRotation`](./CameraGetRotation)
@@ -65,6 +66,7 @@ A list of functions that have been documented:
 1. [`PedGetActionNode`](./PedGetActionNode)
 1. [`PedGetModelId`](./PedGetModelId)
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
+1. [`PrintOutput`](./PrintOutput)
 1. [`RunCommand`](./RunCommand)
 1. [`SetCommand`](./SetCommand)
 1. [`SetMinigameActive`](./SetMinigameActive)
@@ -73,4 +75,3 @@ A list of functions that have been documented:
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
 1. [`WasTypingAborted`](./WasTypingAborted)
-1. [`AllConfigStrings`](./AllConfigStrings)
