@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-54 of 327 functions have been documented.
+62 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -46,6 +46,7 @@ A list of functions that have been documented:
 1. [`GetTextureResolution`](./GetTextureResolution)
 1. [`GetTypingString`](./GetTypingString)
 1. [`HookFunction`](./HookFunction)
+1. [`IsActionNodeValid`](./IsActionNodeValid)
 1. [`IsConfigMissing`](./IsConfigMissing)
 1. [`IsConsoleActive`](./IsConsoleActive)
 1. [`IsGamePaused`](./IsGamePaused)
@@ -61,10 +62,12 @@ A list of functions that have been documented:
 1. [`IsTypingActive`](./IsTypingActive)
 1. [`LoadConfigFile`](./LoadConfigFile)
 1. [`LoadScript`](./LoadScript) <!-- TODO: Fix ImportScript broken link, page not found! -->
+1. [`PedGetActionNode`](./PedGetActionNode)
 1. [`PedGetModelId`](./PedGetModelId)
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
 1. [`SetMinigameActive`](./SetMinigameActive)
 1. [`SetMissionActive`](./SetMissionActive)
+1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
 1. [`WasTypingAborted`](./WasTypingAborted)
