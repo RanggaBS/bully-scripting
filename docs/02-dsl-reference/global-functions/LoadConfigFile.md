@@ -31,13 +31,41 @@ function LoadConfigFile(filename) --[[ ... ]] end
 
 ## Example
 
+A simple example of loading a config file and checking if it is missing:
+
 ```lua
 -- highlight-next-line
-local config = LoadConfigFile("my_config.ini")
+local config = LoadConfigFile('my_config.ini')
 if IsConfigMissing(config) then
-    print("Config file is missing!")
+  print('Config file is missing!')
 else
-    print("Config file loaded successfully!")
+  print('Config file loaded successfully!')
+end
+```
+
+Use a config file to allow the user to customize the behavior of your mod:
+
+```lua
+function MissionSetup()
+  -- load config with the button for our move
+  -- highlight-next-line
+  local cfg = LoadConfigFile('fighting_moves.txt')
+  gKickButton = GetConfigNumber(cfg, 'kick_button', 8)
+end
+function main()
+  while not SystemIsReady() do
+    Wait(0)
+  end
+  while true do
+    local target = PedGetTargetPed(gPlayer)
+    if PedIsValid(target) and PedIsInCombat(target) and PedMePlaying(gPlayer, 'Default_KEY', true) then
+      -- only allow fighting moves when it is appropriate
+      if IsButtonBeingPressed(gKickButton, 0) then
+        PedSetActionNode(gPlayer, '/Global/G_Grappler_A/Offense/Short/Strikes/HeavyAttacks/BootKick', 'Act/Anim/G_Grappler_A.act')
+      end
+    end
+    Wait(0)
+  end
 end
 ```
 
