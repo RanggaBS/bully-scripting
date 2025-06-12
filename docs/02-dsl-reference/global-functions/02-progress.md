@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-76 of 327 functions have been documented.
+77 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -16,6 +16,7 @@ A list of functions that have been documented:
 1. [`CameraGetRotation`](./CameraGetRotation)
 1. [`CameraGetXYZ`](./CameraGetXYZ)
 1. [`ClearCommand`](./ClearCommand)
+1. [`CloseFile`](./CloseFile)
 1. [`CreateDrawingThread`](./CreateDrawingThread)
 1. [`CreateFont`](./CreateFont)
 1. [`CreateSystemThread`](./CreateSystemThread)
