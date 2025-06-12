@@ -71,10 +71,10 @@ The following code is only an example to demonstrate how format specifiers work.
 DrawTextInline('~xy+yellow~Hello~cyan~, ~white~world~rgb~!', 0.1, 0.1, 255, 50, 32, 5, 1)
 ```
 
-Displays button information:
+Displays button information for 5 seconds at the bottom-left:
 ```lua
 local Texture = GetHudTexture('Button_Enter')
-DrawTextInline('~xy+scale+white+t~ - Enter something.', 0.02, 0.95, 0.8, Texture, 0, 3)
+DrawTextInline('~xy+scale+white+t~ - Enter something.', 0.02, 0.95, 0.8, Texture, 5, 3)
 ```
 
 ## See Also
