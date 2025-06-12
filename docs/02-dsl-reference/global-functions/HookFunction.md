@@ -31,6 +31,11 @@ function HookFunction(functionName, callback) --[[ ... ]] end
 
 - `hook`: _`userdata`_ - A handle to the created hook. This can be used to remove the hook later if needed.
 
+## Versions
+
+- **DSL5** - This function was introduced, but was not working properly.
+- **DSL6** - This function now works as intended.
+
 ## Example
 
 ```lua
@@ -45,6 +50,18 @@ local hook = HookFunction('GetPlayerName', function(args, results, isReplacement
 end)
 -- Later, you can remove the hook if needed
 RemoveFunctionHook(hook)
+```
+
+Give all created peds a gun:
+
+```lua
+HookFunction('PedCreatePoint', function(args, results)
+  local ped = results[1]
+  if PedIsValid(ped) then -- rare that PedCreatePoint would return an invalid ped, but it can
+    PedClearAllWeapons(ped)
+    PedSetWeapon(ped, 305, 8)
+  end
+end)
 ```
 
 ## See Also
