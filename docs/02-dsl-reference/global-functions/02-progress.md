@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-75 of 327 functions have been documented.
+76 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -64,6 +64,7 @@ A list of functions that have been documented:
 1. [`IsTypingActive`](./IsTypingActive)
 1. [`LoadConfigFile`](./LoadConfigFile)
 1. [`LoadScript`](./LoadScript) <!-- TODO: Fix ImportScript broken link, page not found! -->
+1. [`OpenFile`](./OpenFile)
 1. [`PedGetActionNode`](./PedGetActionNode)
 1. [`PedGetModelId`](./PedGetModelId)
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
