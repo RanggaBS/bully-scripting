@@ -27,6 +27,7 @@ Format specifiers:
 | `~yellow~`        | Changes the text color to yellow.                                           |
 | `~cyan~`          | Changes the text color to cyan.                                             |
 | `~t~` or `~texture~` | Draws a texture. Takes one argument: `userdata`.                         |
+
 :::info
 To use multiple specifiers more conveniently, you can combine them with `+` instead of writing each one separately. For example, `~xy~~scale~~font~` can be written as `~xy+scale+font~`.
 :::
