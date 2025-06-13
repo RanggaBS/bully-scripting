@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-87 of 327 functions have been documented.
+88 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -30,6 +30,7 @@ A list of functions that have been documented:
 1. [`DrawTexture2`](./DrawTexture2)
 1. [`DrawTexture`](./DrawTexture)
 1. [`FlushFile`](./FlushFile)
+1. [`GetAnyKeyPressed`](./GetAnyKeyPressed)
 1. [`GetBaseGameFunction`](./GetBaseGameFunction)
 1. [`GetConfigBoolean`](./GetConfigBoolean)
 1. [`GetConfigNumber`](./GetConfigNumber)
