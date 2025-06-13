@@ -26,10 +26,17 @@ function GetLocalizedText(label) --[[ ... ]] end
 ## Example
 
 ```lua
-local text = GetLocalizedText('example_label')
+local text = GetLocalizedText('EXAMPLE_LABEL')
 if text ~= ' ' then
-    print('Localized text: ' .. text)
+  print('Localized text: ' .. text)
 else
-    print('Label not found.')
+  print('Label not found.')
 end
 ```
+
+## See Also
+
+- DSL
+  - [`GetLocalizedText`](./GetLocalizedText)
+  - [`ReplaceLocalizedText`](./ReplaceLocalizedText)
+  - [`TextPrint`](/docs/game-reference/global-functions/TextPrint)
