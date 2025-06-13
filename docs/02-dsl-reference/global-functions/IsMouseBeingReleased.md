@@ -33,8 +33,13 @@ function IsMouseBeingReleased(button) --[[ ... ]] end
 ## Example
 
 ```lua
-if IsMouseBeingReleased(0) then
-  print('Left mouse button was released this frame.')
+function main()
+  while true do
+    if IsMouseBeingReleased(0) then
+      print('Left mouse button was just released.', 0.5, 1)
+    end
+    Wait(0)
+  end
 end
 ```
 
