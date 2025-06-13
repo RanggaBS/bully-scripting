@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-91 of 327 functions have been documented.
+92 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -94,6 +94,7 @@ A list of functions that have been documented:
 1. [`SetCommand`](./SetCommand)
 1. [`SetMinigameActive`](./SetMinigameActive)
 1. [`SetMissionActive`](./SetMissionActive)
+1. [`SetStickValue`](./SetStickValue)
 1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
