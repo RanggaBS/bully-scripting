@@ -33,8 +33,13 @@ function IsMousePressed(button) --[[ ... ]] end
 ## Example
 
 ```lua
-if IsMousePressed(0) then
-  print('Left mouse button is currently pressed.')
+function main()
+  while true do
+    if IsMousePressed(0) then
+      DrawTextInline('Left mouse button is currently pressed.', 0, 1)
+    end
+    Wait(0)
+  end
 end
 ```
 
