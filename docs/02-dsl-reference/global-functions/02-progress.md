@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-98 of 327 functions have been documented.
+99 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -25,6 +25,7 @@ A list of functions that have been documented:
 1. [`CreateTexture`](./CreateTexture)
 1. [`CreateThread`](./CreateThread)
 1. [`DoesCommandExist`](./DoesCommandExist)
+1. [`DontAutoStartScript`](./DontAutoStartScript)
 1. [`DrawRectangle`](./DrawRectangle)
 1. [`DrawTextInline`](./DrawTextInline)
 1. [`DrawText`](./DrawText)
