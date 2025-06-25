@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-141 of 1732 functions have been documented.
+143 of 1732 functions have been documented.
 
 A list of functions that have been documented.
 
@@ -45,6 +45,7 @@ A list of functions that have been documented.
 - [`ClothingSetPlayerOutfit`](./ClothingSetPlayerOutfit)
 - [`CounterMakeHUDVisible`](./CounterMakeHUDVisible)
 - [`CounterUseMeter`](./CounterUseMeter)
+- [`CreatePersistentEntity`](./CreatePersistentEntity)
 - [`CreateProjectile`](./CreateProjectile)
 - [`CreateThread`](./CreateThread)
 - [`CreditLoadDB`](./CreditLoadDB)
@@ -52,6 +53,7 @@ A list of functions that have been documented.
 - [`CreditReset`](./CreditReset)
 - [`CreditSetup`](./CreditSetup)
 - [`DeleteAllMissionPeds`](./DeleteAllMissionPeds)
+- [`DeletePersistentEntity`](./DeletePersistentEntity)
 - [`DemoBuildReturnToMain`](./DemoBuildReturnToMain)
 - [`DestroyProjectile`](./DestroyProjectile)
 - [`DetentionMeterSetVisibility`](./DetentionMeterSetVisibility)
