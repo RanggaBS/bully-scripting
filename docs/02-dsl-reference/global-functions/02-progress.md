@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-100 of 327 functions have been documented.
+114 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -76,6 +76,7 @@ A list of functions that have been documented:
 1. [`LoadConfigFile`](./LoadConfigFile)
 1. [`LoadScript`](./LoadScript) <!-- TODO: Fix ImportScript broken link, page not found! -->
 1. [`LoadTable`](./LoadTable)
+1. [`MeasureText`](./MeasureText)
 1. [`OpenFile`](./OpenFile)
 1. [`PedGetActionNode`](./PedGetActionNode)
 1. [`PedGetModelId`](./PedGetModelId)
@@ -102,6 +103,19 @@ A list of functions that have been documented:
 1. [`SetMinigameActive`](./SetMinigameActive)
 1. [`SetMissionActive`](./SetMissionActive)
 1. [`SetStickValue`](./SetStickValue)
+1. [`SetTextAlign`](./SetTextAlign)
+1. [`SetTextBold`](./SetTextBold)
+1. [`SetTextClipping`](./SetTextClipping)
+1. [`SetTextColor`](./SetTextColor)
+1. [`SetTextFont`](./SetTextFont)
+1. [`SetTextFormatting`](./SetTextFormatting)
+1. [`SetTextHeight`](./SetTextHeight)
+1. [`SetTextItalic`](./SetTextItalic)
+1. [`SetTextOutline`](./SetTextOutline)
+1. [`SetTextPosition`](./SetTextPosition)
+1. [`SetTextScale`](./SetTextScale)
+1. [`SetTextShadow`](./SetTextShadow)
+1. [`SetTextWrapping`](./SetTextWrapping)
 1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
