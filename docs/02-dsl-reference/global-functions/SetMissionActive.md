@@ -1,5 +1,5 @@
 ---
-description: ...
+description: This function was added in DSL 10.
 sidebar_class_name: hidden
 ---
 
