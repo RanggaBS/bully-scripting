@@ -1,9 +1,11 @@
 ---
-description: **_This function was added in DSL 10._**
+description: Checks whether the player currently has control over the active ped.
 sidebar_class_name: hidden
 ---
 
 # PlayerHasControl
+
+> **_This function was added in DSL 2_**
 
 ## Description
 
