@@ -28,7 +28,7 @@ Spawn Constantinos by the boys' dorm and swap him to Algie.
 
 ```lua
 const = PedCreateXYZ(70, 270, -113, 7)
-PedSwapModel("NDH1a_Algernon")
+PedSwapModel(const, "NDH1a_Algernon")
 ```
 
 ## See Also
