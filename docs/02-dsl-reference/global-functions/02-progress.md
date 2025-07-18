@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-114 of 327 functions have been documented.
+119 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -27,10 +27,11 @@ A list of functions that have been documented:
 1. [`DoesCommandExist`](./DoesCommandExist)
 1. [`DontAutoStartScript`](./DontAutoStartScript)
 1. [`DrawRectangle`](./DrawRectangle)
-1. [`DrawTextInline`](./DrawTextInline)
 1. [`DrawText`](./DrawText)
-1. [`DrawTexture2`](./DrawTexture2)
+1. [`DrawTextInline`](./DrawTextInline)
 1. [`DrawTexture`](./DrawTexture)
+1. [`DrawTexture2`](./DrawTexture2)
+1. [`FindFiles`](./FindFiles)
 1. [`FlushFile`](./FlushFile)
 1. [`GetAnyKeyBeingPressed`](./GetAnyKeyBeingPressed)
 1. [`GetAnyKeyBeingReleased`](./GetAnyKeyBeingReleased)
@@ -81,10 +82,12 @@ A list of functions that have been documented:
 1. [`PedGetActionNode`](./PedGetActionNode)
 1. [`PedGetModelId`](./PedGetModelId)
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
+1. [`PlayerHasControl`](./PlayerHasControl)
 1. [`PrintError`](./PrintError)
 1. [`PrintOutput`](./PrintOutput)
 1. [`PrintSpecial`](./PrintSpecial)
 1. [`PrintWarning`](./PrintWarning)
+1. [`print`](./print)
 1. [`ReadFile`](./ReadFile)
 1. [`RegisterLocalEventHandler`](./RegisterLocalEventHandler)
 1. [`RegisterLocalizedText`](./RegisterLocalizedText)
@@ -119,7 +122,9 @@ A list of functions that have been documented:
 1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
+1. [`type2`](./type2)
+1. [`VehicleGetPassenger`](./VehicleGetPassenger)
+1. [`VehicleUseHorn`](./VehicleUseHorn)
 1. [`WasTypingAborted`](./WasTypingAborted)
 1. [`WriteFile`](./WriteFile)
 1. [`ZeroController`](./ZeroController)
-1. [`print`](./print)
