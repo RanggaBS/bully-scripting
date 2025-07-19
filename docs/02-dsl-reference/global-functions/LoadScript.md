@@ -33,8 +33,34 @@ None.
 
 ## Example
 
+A main script can load a secondary script as a way of splitting large amounts of code into separate files for organization.
+
+The loaded script is loaded into the script that called `LoadScript`, allowing said script to use the functions and variables defined there.
+
+### `main.lua`
+
 ```lua
-LoadScript("scripts/my_script.lua")
+-- highlight-next-line
+LoadScript("example.lua")
+
+-- Hello world, from another script! will be printed
+F_HelloWorld()
+
+-- nil will be printed, because we cannot access the local variables of the other function
+print(some_local)
+
+-- but we do share globals with that script, so we can see 7 printed here
+print(some_global)
+```
+
+### `example.lua`
+
+```lua
+local some_local = 4
+some_global = 7
+function F_HelloWorld()
+  print("Hello world, from another script!")
+end
 ```
 
 ## See Also
