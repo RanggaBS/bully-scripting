@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-120 of 327 functions have been documented.
+121 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -97,6 +97,7 @@ A list of functions that have been documented:
 1. [`ReplaceLocalizedText`](./ReplaceLocalizedText)
 1. [`RequireDependency`](./RequireDependency)
 1. [`RequireLoaderVersion`](./RequireLoaderVersion)
+1. [`RequireSystemAccess`](./RequireSystemAccess)
 1. [`RunCommand`](./RunCommand)
 1. [`RunLocalEvent`](./RunLocalEvent)
 1. [`SaveTable`](./SaveTable)
