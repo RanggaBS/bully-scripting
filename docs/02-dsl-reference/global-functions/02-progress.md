@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-119 of 327 functions have been documented.
+120 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -27,10 +27,10 @@ A list of functions that have been documented:
 1. [`DoesCommandExist`](./DoesCommandExist)
 1. [`DontAutoStartScript`](./DontAutoStartScript)
 1. [`DrawRectangle`](./DrawRectangle)
-1. [`DrawText`](./DrawText)
 1. [`DrawTextInline`](./DrawTextInline)
-1. [`DrawTexture`](./DrawTexture)
+1. [`DrawText`](./DrawText)
 1. [`DrawTexture2`](./DrawTexture2)
+1. [`DrawTexture`](./DrawTexture)
 1. [`FindFiles`](./FindFiles)
 1. [`FlushFile`](./FlushFile)
 1. [`GetAnyKeyBeingPressed`](./GetAnyKeyBeingPressed)
@@ -87,7 +87,6 @@ A list of functions that have been documented:
 1. [`PrintOutput`](./PrintOutput)
 1. [`PrintSpecial`](./PrintSpecial)
 1. [`PrintWarning`](./PrintWarning)
-1. [`print`](./print)
 1. [`ReadFile`](./ReadFile)
 1. [`RegisterLocalEventHandler`](./RegisterLocalEventHandler)
 1. [`RegisterLocalizedText`](./RegisterLocalizedText)
@@ -97,6 +96,7 @@ A list of functions that have been documented:
 1. [`ReplaceFunction`](./ReplaceFunction)
 1. [`ReplaceLocalizedText`](./ReplaceLocalizedText)
 1. [`RequireDependency`](./RequireDependency)
+1. [`RequireLoaderVersion`](./RequireLoaderVersion)
 1. [`RunCommand`](./RunCommand)
 1. [`RunLocalEvent`](./RunLocalEvent)
 1. [`SaveTable`](./SaveTable)
@@ -122,9 +122,10 @@ A list of functions that have been documented:
 1. [`SoundPlayAmbientSpeechEventSpecific`](./SoundPlayAmbientSpeechEventSpecific)
 1. [`StartTyping`](./StartTyping)
 1. [`StopTyping`](./StopTyping)
-1. [`type2`](./type2)
 1. [`VehicleGetPassenger`](./VehicleGetPassenger)
 1. [`VehicleUseHorn`](./VehicleUseHorn)
 1. [`WasTypingAborted`](./WasTypingAborted)
 1. [`WriteFile`](./WriteFile)
 1. [`ZeroController`](./ZeroController)
+1. [`print`](./print)
+1. [`type2`](./type2)
