@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-127 of 327 functions have been documented.
+128 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -104,6 +104,7 @@ A list of functions that have been documented:
 1. [`RunLocalEvent`](./RunLocalEvent)
 1. [`SaveTable`](./SaveTable)
 1. [`SeekFile`](./SeekFile) <!-- TODO: Add example code, need review -->
+1. [`SeasonGet`](./SeasonGet)
 1. [`SetAllTimecycles`](./SetAllTimecycles)
 1. [`SetButtonPressed`](./SetButtonPressed)
 1. [`SetCommand`](./SetCommand)
