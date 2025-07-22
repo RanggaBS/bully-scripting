@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Gets timecycle object.
 sidebar_class_name: hidden
 ---
 
