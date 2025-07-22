@@ -67,13 +67,13 @@ function GetTimecycle(hour, season, weather) --[[ ... ]] end
 
 ## Parameters
 
-`hour`: _`number`_ - An integer value ranging from 0 to 23.
-`season`: _`number`_ - An integer value ranging from 0 to 3.
-`weather`: _`number`_ - An integer value ranging from 0 to 5.
+- `hour`: _`number`_ - An integer value ranging from 0 to 23.
+- `season`: _`number`_ - An integer value ranging from 0 to 3.
+- `weather`: _`number`_ - An integer value ranging from 0 to 5.
 
 ## Return Values
 
-`timecycle`: _`userdata`_ - A timecycle userdata.
+- `timecycle`: _`userdata`_ - A timecycle userdata.
 
 ## Example
 
