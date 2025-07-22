@@ -5,6 +5,8 @@ sidebar_class_name: hidden
 
 # CopyTimecycle
 
+_**This function was added in DSL 10**_
+
 ## Description
 
 Creates a new timecycle object by copying all fields and values from an existing one. This function is useful when you need an isolated copy of a timecycle object that won't be affected by changes in other scripts, or when you want to create a backup of a specific timecycle for later use.
