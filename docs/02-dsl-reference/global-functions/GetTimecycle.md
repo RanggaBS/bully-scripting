@@ -18,7 +18,7 @@ The returned object is a reference to the actual timecycle data. Therefore, any 
 Some fields within the timecycle structure are color values, represented as `tc_color` objects. These can be modified either by assigning a table containing RGB values (e.g., `tc.Amb_World = {255, 255, 255}`) or by indexing the color object directly (e.g., `tc.Amb_World.r = 255`).
 
 
-Timecycle Fields:
+Fields:
 | Name            | Description               |
 |-----------------|---------------------------|
 | Amb_Props       | `tc_color`                |
