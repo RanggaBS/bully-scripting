@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-138 of 327 functions have been documented.
+139 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -79,6 +79,7 @@ A list of functions that have been documented:
 1. [`IsMouseBeingReleased`](./IsMouseBeingReleased)
 1. [`IsMousePressed`](./IsMousePressed)
 1. [`IsNetworkingAllowed`](./IsNetworkingAllowed)
+1. [`IsScriptRunning`](./IsScriptRunning)
 1. [`IsSystemAccessAllowed`](./IsSystemAccessAllowed)
 1. [`IsTypingActive`](./IsTypingActive)
 1. [`IsUsingJoystick`](./IsUsingJoystick)
