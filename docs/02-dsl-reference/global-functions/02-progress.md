@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-133 of 327 functions have been documented.
+134 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -53,6 +53,7 @@ A list of functions that have been documented:
 1. [`GetMouseScroll`](./GetMouseScroll)
 1. [`GetPackageFilePath`](./GetPackageFilePath)
 1. [`GetScreenResolution`](./GetScreenResolution)
+1. [`GetScriptCollection`](./GetScriptCollection)
 1. [`GetScriptConfig`](./GetScriptConfig) <!-- TODO: 2. [`GetScriptFilePath`](./GetScriptFilePath) -->
 1. [`GetSimulationSpeed`](./GetSimulationSpeed)
 1. [`GetTextFormatting`](./GetTextFormatting)
