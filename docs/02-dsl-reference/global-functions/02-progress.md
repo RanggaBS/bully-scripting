@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-132 of 327 functions have been documented.
+133 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -42,6 +42,7 @@ A list of functions that have been documented:
 1. [`GetConfigNumber`](./GetConfigNumber)
 1. [`GetConfigString`](./GetConfigString)
 1. [`GetConfigValue`](./GetConfigValue)
+1. [`GetCurrentScript`](./GetCurrentScript)
 1. [`GetDisplayAspectRatio`](./GetDisplayAspectRatio)
 1. [`GetDisplayResolution`](./GetDisplayResolution)
 1. [`GetFrameTime`](./GetFrameTime)
