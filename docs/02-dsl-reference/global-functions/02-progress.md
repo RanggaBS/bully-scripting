@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-129 of 327 functions have been documented.
+130 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -130,6 +130,7 @@ A list of functions that have been documented:
 1. [`StartScript`](./StartScript)
 1. [`StartTyping`](./StartTyping)
 1. [`StartVirtualScript`](./StartVirtualScript)
+1. [`StopCurrentScriptCollection`](./StopCurrentScriptCollection)
 1. [`StopTyping`](./StopTyping)
 1. [`VehicleGetPassenger`](./VehicleGetPassenger)
 1. [`VehicleUseHorn`](./VehicleUseHorn)
