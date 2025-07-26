@@ -1,5 +1,5 @@
 ---
-description: Creates a new thread specifically for drawing operations in the game.
+description: Create a drawing thread using the specified function or an anonymous function.
 sidebar_class_name: hidden
 ---
 
@@ -9,19 +9,26 @@ sidebar_class_name: hidden
 
 ## Description
 
-Creates a new thread specifically for drawing operations in the game. This function allows you to run drawing tasks in a separate thread, which can help improve performance and responsiveness by offloading these tasks from the main game loop. It is particularly useful for rendering custom graphics or UI elements without interfering with the game's primary execution flow.
+Create a [**`DRAWING`**](/docs/dsl-reference/basic-concepts/scripts#thread-types) thread, using the same general rules as [`CreateThread`](CreateThread).
+
+These threads run directly before the game presents its back buffer, meaning anything you draw will be on top of everything the game drew.
+
+This is useful for drawing custom UI elements, overlays, or any other graphical elements that need to be rendered on top of the game.
+
+Any extra arguments (`...`) are passed to the thread function when the thread starts.
 
 ```lua
-function CreateDrawingThread(func) --[[ ... ]] end
+function CreateDrawingThread(func, ...) --[[ ... ]] end
 ```
 
 ## Parameters
 
-- `func`: _`function`_ - The function to be executed in a separate thread for drawing operations. This function should not return any value and is typically used to perform drawing tasks without blocking the main game thread.
+- `func`: _`function|string`_ - The function to run in the drawing thread. If a string is provided, it refers to a function in the current script's environment.
+- `...`: _`any`_ - (Optional) Additional arguments that will be passed to the thread function when it starts.
 
 ## Return Values
 
-- `thread`: _`thread`_- Returns a thread handle that can be used to manage the drawing thread. This handle can be used with functions like`TerminateThread` to stop the drawing operations when they are no longer needed.
+- `thread`: _`thread`_ - The thread object representing the newly created drawing thread. This can be used to control the thread, such as pausing or stopping it.
 
 ## Example
 
@@ -33,3 +40,8 @@ local thread = CreateDrawingThread(function()
   end
 end)
 ```
+
+## See Also
+
+- DSL
+  - [`CreateThread`](./CreateThread)
