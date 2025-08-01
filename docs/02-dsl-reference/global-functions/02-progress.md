@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-142 of 327 functions have been documented.
+143 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -64,6 +64,7 @@ A list of functions that have been documented:
 1. [`GetTextureAspectRatio`](./GetTextureAspectRatio)
 1. [`GetTextureDisplayAspectRatio`](./GetTextureDisplayAspectRatio)
 1. [`GetTextureResolution`](./GetTextureResolution)
+1. [`GetThreadName`](./GetThreadName)
 1. [`GetTimecycle`](./GetTimecycle)
 1. [`GetTypingString`](./GetTypingString)
 1. [`HookFunction`](./HookFunction)
