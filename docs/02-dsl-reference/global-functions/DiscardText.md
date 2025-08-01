@@ -29,7 +29,6 @@ SetTextPosition(0.5, 0.5)
 SetTextScale(5.0)
 SetTextColor(0, 255, 0, 255)
 SetTextBold()
-DrawText("This text uses new formatting")
 
 -- Discard the formatting
 DiscardText()
