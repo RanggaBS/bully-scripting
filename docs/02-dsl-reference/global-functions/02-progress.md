@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-148 of 327 functions have been documented.
+150 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -25,6 +25,7 @@ A list of functions that have been documented:
 1. [`CreateSystemThread`](./CreateSystemThread)
 1. [`CreateTexture`](./CreateTexture)
 1. [`CreateThread`](./CreateThread)
+1. [`DiscardText`](./DiscardText)
 1. [`DoesCommandExist`](./DoesCommandExist)
 1. [`DontAutoStartScript`](./DontAutoStartScript)
 1. [`DrawRectangle`](./DrawRectangle)
@@ -52,6 +53,7 @@ A list of functions that have been documented:
 1. [`GetMouseInput`](./GetMouseInput)
 1. [`GetMouseScroll`](./GetMouseScroll)
 1. [`GetPackageFilePath`](./GetPackageFilePath)
+1. [`GetPlayerName`](./GetPlayerName)
 1. [`GetScreenResolution`](./GetScreenResolution)
 1. [`GetScriptCollection`](./GetScriptCollection)
 1. [`GetScriptConfig`](./GetScriptConfig) <!-- TODO: 2. [`GetScriptFilePath`](./GetScriptFilePath) -->
