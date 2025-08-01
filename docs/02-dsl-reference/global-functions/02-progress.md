@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-146 of 327 functions have been documented.
+147 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -147,6 +147,7 @@ A list of functions that have been documented:
 1. [`TerminateCurrentThread`](./TerminateCurrentThread)
 1. [`TerminateScript`](./TerminateScript)
 1. [`TerminateThread`](./TerminateThread)
+1. [`UseBaseGameScriptFunctions`](./UseBaseGameScriptFunctions)
 1. [`VehicleGetPassenger`](./VehicleGetPassenger)
 1. [`VehicleUseHorn`](./VehicleUseHorn)
 1. [`Wait`](./Wait)
