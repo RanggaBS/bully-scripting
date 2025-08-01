@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-147 of 327 functions have been documented.
+148 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -69,6 +69,7 @@ A list of functions that have been documented:
 1. [`GetTimecycle`](./GetTimecycle)
 1. [`GetTypingString`](./GetTypingString)
 1. [`HookFunction`](./HookFunction)
+1. [`ImportScript`](./ImportScript)
 1. [`IsActionNodeValid`](./IsActionNodeValid)
 1. [`IsConfigMissing`](./IsConfigMissing)
 1. [`IsConsoleActive`](./IsConsoleActive)
