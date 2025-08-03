@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-157 of 327 functions have been documented.
+158 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -35,6 +35,7 @@ A list of functions that have been documented:
 1. [`DrawTexture`](./DrawTexture)
 1. [`FindFiles`](./FindFiles)
 1. [`FlushFile`](./FlushFile)
+1. [`GetAllPoolInfo`](./GetAllPoolInfo)
 1. [`GetAnyKeyBeingPressed`](./GetAnyKeyBeingPressed)
 1. [`GetAnyKeyBeingReleased`](./GetAnyKeyBeingReleased)
 1. [`GetAnyKeyPressed`](./GetAnyKeyPressed)
