@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-151 of 327 functions have been documented.
+152 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -98,7 +98,8 @@ A list of functions that have been documented:
 1. [`PedGetModelId`](./PedGetModelId)
 1. [`PedGetThrottle`](./PedGetThrottle)
 1. [`PedSetPosSimple`](./PedSetPosSimple) <!-- TODO: Add example code -->
-1. [`PedSpoofModel`](./PedSpoofModel) <!-- TODO: Add example -->
+1. [`PedSetThrottle`](./PedSetThrottle)
+1. [`PedSpoofModel`](./PedSpoofModel)
 1. [`PlayerHasControl`](./PlayerHasControl)
 1. [`PrintError`](./PrintError)
 1. [`PrintOutput`](./PrintOutput)
