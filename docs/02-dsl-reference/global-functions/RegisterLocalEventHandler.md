@@ -13,10 +13,11 @@ Registers a new local event handler. The `callback` function is called when the 
 
 An `eventType` is just a string. Although there are a few events built-in and listed below, you are free to define your own for any purpose. Just make sure the name is unique enough that it won't clash with what other developers are likely to use. This is a good way to allow your script's behavior to be influenced by scripts from other developers.
 
-:::tip Best Practice
+:::tip[Best Practice]
+
 - ❌ `RegisterLocalEventHandler('EventName', function() end)`
 - ✅ `RegisterLocalEventHandler('MyMod:EventName', function() end)`
-:::
+  :::
 
 ```lua
 function RegisterLocalEventHandler(eventType, callback) --[[ ... ]] end
@@ -82,9 +83,9 @@ end)
 
 ### Shared
 
-| Type                          | Description                                                                                                             |
-| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| DSL5ScriptPrinted(text, type) | One of the print functions have been called. This is mainly designed to help forward console output into a server chat. |
+| Type                               | Description                                                                                                             |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **DSL5** ScriptPrinted(text, type) | One of the print functions have been called. This is mainly designed to help forward console output into a server chat. |
 
 ## See Also
 
