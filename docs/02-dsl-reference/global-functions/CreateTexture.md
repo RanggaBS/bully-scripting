@@ -3,19 +3,13 @@ description: Create a `texture` for later drawing given a relative path of a `.p
 sidebar_class_name: hidden
 ---
 
-<!--
----Create a `Texture` for later drawing given a relative path of a `.png` file.
----@param name string
----@return userdata texture
- -->
-
 # CreateTexture
 
 > **_This function was added in DSL 1_**
 
 ## Description
 
-Create a `texture` for later drawing given a relative path of a `.png` file.
+Create a `texture` for later drawing given a [relative path](/docs/dsl-reference/basic-concepts/relative-paths) of a `.png` file.
 
 ```lua
 function CreateTexture(filename) --[[ ... ]] end
