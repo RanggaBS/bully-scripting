@@ -3,7 +3,14 @@ sidebar_position: 6
 pagination_label: Config Files
 sidebar_label: Config Files
 description: DSL configuration files define settings and behaviors for script collections, allowing customization of script execution and requirements.
-keywords: DSL, configuration files, script collections, mod settings, script execution, ini, config.txt
+keywords:
+  - DSL
+  - configuration files
+  - script collections
+  - mod settings
+  - script execution
+  - ini
+  - config.txt
 ---
 
 # Config Files
