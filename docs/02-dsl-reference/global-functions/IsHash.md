@@ -12,7 +12,7 @@ sidebar_class_name: hidden
 Check if a hash (returned by functions like [`ObjectNameToHashID`](./ObjectNameToHashID)) is equal to a number represented by a string. The string is specified in hexadecimal.
 
 ```lua
-function IsHash(hash: userdata, check: string): boolean equal --[[ ... ]] end
+function IsHash(hash, check) --[[ ... ]] end
 ```
 
 ## Parameters
