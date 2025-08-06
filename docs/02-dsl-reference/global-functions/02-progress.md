@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-160 of 327 functions have been documented.
+161 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -54,6 +54,7 @@ A list of functions that have been documented:
 1. [`GetMouseInput`](./GetMouseInput)
 1. [`GetMouseScroll`](./GetMouseScroll)
 1. [`GetPackageFilePath`](./GetPackageFilePath)
+1. [`GetPersistentDataTable`](./GetPersistentDataTable)
 1. [`GetPlayerName`](./GetPlayerName)
 1. [`GetPoolSize`](./GetPoolSize)
 1. [`GetPoolSpace`](./GetPoolSpace)
