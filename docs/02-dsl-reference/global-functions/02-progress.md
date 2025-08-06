@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-169 of 327 functions have been documented.
+170 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -14,6 +14,7 @@ A list of functions that have been documented:
 1. [`AllConfigValues`](./AllConfigValues)
 1. [`AllPeds`](./AllPeds)
 1. [`AllowOnServer`](./AllowOnServer)
+1. [`CallFunctionFromScript`](./CallFunctionFromScript)
 1. [`CameraGetRotation`](./CameraGetRotation)
 1. [`CameraGetXYZ`](./CameraGetXYZ)
 1. [`CanWriteFiles`](./CanWriteFiles)
