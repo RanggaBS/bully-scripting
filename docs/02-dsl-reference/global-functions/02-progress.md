@@ -5,7 +5,7 @@ sidebar_label: -- progress
 
 # Progress
 
-167 of 327 functions have been documented.
+168 of 327 functions have been documented.
 
 A list of functions that have been documented:
 
@@ -85,6 +85,7 @@ A list of functions that have been documented:
 1. [`IsConsoleActive`](./IsConsoleActive)
 1. [`IsDslScriptRunning`](./IsDslScriptRunning)
 1. [`IsGamePaused`](./IsGamePaused)
+1. [`IsHash`](./IsHash)
 1. [`IsKeyBeingPressed`](./IsKeyBeingPressed)
 1. [`IsKeyBeingReleased`](./IsKeyBeingReleased)
 1. [`IsKeyPressed`](./IsKeyPressed)
