@@ -1,7 +1,7 @@
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer'
 
-import type { Config } from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types'
+import type * as Preset from '@docusaurus/preset-classic'
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -234,6 +234,18 @@ const config: Config = {
       darkTheme: prismThemes.nightOwl,
       additionalLanguages: ['bash', 'ini', 'lua', 'markdown'],
     },
+
+    /* ---------------------------------------------------------------------- */
+    /* Google AdSense (Meta tag)                                              */
+    /* ---------------------------------------------------------------------- */
+
+    metadata: [
+      {
+        name: 'google-adsense-account',
+        content: 'ca-pub-3889809787713217',
+      },
+    ],
+    //
   } satisfies Preset.ThemeConfig,
 
   /* ------------------------------------------------------------------------ */
@@ -242,6 +254,21 @@ const config: Config = {
   // https://docusaurus.io/blog/releases/3.8#docusaurus-faster
 
   future: { experimental_faster: true, v4: true },
-};
 
-export default config;
+  /* ------------------------------------------------------------------------ */
+  /* Google AdSense (code snippet)                                            */
+  /* ------------------------------------------------------------------------ */
+
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3889809787713217',
+        async: true,
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+}
+
+export default config
