@@ -264,9 +264,17 @@ const config: Config = {
       tagName: 'script',
       attributes: {
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3889809787713217',
-        async: true,
+        async: 'true',
         crossorigin: 'anonymous',
       },
+    },
+  ],
+
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3889809787713217',
+      async: true,
+      crossorigin: 'anonymous',
     },
   ],
 }
