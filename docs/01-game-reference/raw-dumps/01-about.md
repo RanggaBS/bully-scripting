@@ -15,3 +15,4 @@ This section is for people who just want raw data pulled from the game without t
 - See [speech events](./raw-dumps/speech-events) for scriptable speech events.
 - See [act condition](./raw-dumps/action-conditions) for conditions used in actions.
 - See [effect names](./raw-dumps/effect-names) for all of the effects in the game.
+- See [sound effects](./raw-dumps/sound-effects) for all of the sound effects in the game.
