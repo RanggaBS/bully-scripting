@@ -10,8 +10,4 @@ For more information, see the [about page](/docs/dsl-reference/basic-concepts/ab
 
 Versions with an **S** do not have any **system access** functionality. Although these features are off by default and the user must explicitly enable it in their config, **non-S** versions may still trip anti-virus software and are only recommended if you know what you're doing.
 
-The current client version is derpy's script loader 10 - S.
-
-The current server version is derpy's script server 9 - S.
-
-If you need some other version, see [all versions](https://www.mediafire.com/folder/clgtvlrnat179/derpy's_script_loader).
+The latest version can be found [here](https://www.nexusmods.com/bullyscholarshipedition/mods/43).
